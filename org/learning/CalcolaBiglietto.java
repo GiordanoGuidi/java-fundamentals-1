@@ -7,9 +7,11 @@ public class CalcolaBiglietto {
         Scanner scanner = new Scanner(System.in);
         //Inizializzo le variabiuli
         int kilometers, passengerAge;
+        //chiedo all'utente il numero di chilometri da percorrere
         System.out.print("Number of kilometers: ");
         // leggo il valore come stringa da tastiera poi lo converto in int
         kilometers = Integer.parseInt(scanner.nextLine());
+        //chiedo all'utente l'età del passeggero
         System.out.print("Passenger age: ");
         //leggo il valore come stringa da tastiera poi lo converto in int
         passengerAge = Integer.parseInt(scanner.nextLine());
@@ -26,5 +28,5 @@ public class CalcolaBiglietto {
         }
         System.out.println(totalPrice);
     }
-
 }
+
