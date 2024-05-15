@@ -8,7 +8,7 @@ public class FavouritesFood {
         //stampo il primo elemento dell'array
         System.out.println(favouritesFoods[0]);
         //stampo l'ultimo elemento dell'array
-        System.out.println(favouritesFoods[5]);
+        System.out.println(favouritesFoods[favouritesFoods.length -1]);
         //stampo elemento a metà dell'array
         System.out.println(favouritesFoods[favouritesFoods.length / 2 -1]);
     }
